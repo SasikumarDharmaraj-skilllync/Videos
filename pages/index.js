@@ -3,7 +3,6 @@ import styles from '../styles/Home.module.css'
 import Header from '../src/components/header'
 import VerticalCard from '../src/components/verticalCard'
 import { useState } from 'react'
-import Thumbnail from '../src/components/thumbnail'
 
 export default function Home() {
   const nextLoad = () => {

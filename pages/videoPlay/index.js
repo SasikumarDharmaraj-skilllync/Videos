@@ -1,8 +1,8 @@
-import Header from '../src/components/header'
-import PlayVideo from '../src/components/playVideo';
-import LeadForm from '../src/components/leadForm';
-import HorizontalCard from '../src/components/horizontalCard';
+import PlayVideo from '../../src/components/playVideo';
+import LeadForm from '../../src/components/leadForm';
+import HorizontalCard from '../../src/components/horizontalCard';
 import Head from 'next/head'
+import Header from '../../src/components/header';
 
 
 const VideoPlay = () => {

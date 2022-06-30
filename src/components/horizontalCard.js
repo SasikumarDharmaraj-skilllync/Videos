@@ -7,7 +7,7 @@ const HorizontalCard = () => {
                 <div class="card-body">
                     <div className="row">
                         <div className="col-6">
-                            <Link href="/videoPlay">
+                            <Link href="/videoPlay/vi">
                                 <img src='https://www.w3schools.com/images/w3schools_green.jpg' />
                             </Link>
                         </div>
