@@ -1,9 +1,10 @@
 import Header from '../src/components/header'
 import PlayVideo from '../src/components/playVideo';
 import LeadForm from '../src/components/leadForm';
-import Card from '../src/components/card';
+import HorizontalCard from '../src/components/horizontalCard';
 
 const VideoPlay = () => {
+    const n = [1, 2, 3, 4, 5]
     return (
         <>
             <Header />
@@ -15,7 +16,14 @@ const VideoPlay = () => {
                     <LeadForm />
                 </div>
             </div>
-            <Card />
+            <div className='row'>
+                {n.map(() => (
+                    <div className='col-4'>
+                        <HorizontalCard />
+                    </div>
+                ))}
+            </div>
+
         </>
     )
 }

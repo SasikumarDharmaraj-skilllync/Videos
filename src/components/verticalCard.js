@@ -1,9 +1,6 @@
 import Link from 'next/link';
 
-const Card = () => {
-
-
-
+const VerticalCard = () => {
     return (
         <>
             <div class="card text-dark col-8 mb-3">
@@ -27,4 +24,4 @@ const Card = () => {
     )
 }
 
-export default Card;
+export default VerticalCard;

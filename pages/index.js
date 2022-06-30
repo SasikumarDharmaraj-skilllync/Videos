@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from '../src/components/header'
-import Card from '../src/components/card'
+import VerticalCard from '../src/components/verticalCard'
 
 export default function Home() {
 
@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <Header />
       {n.map(() => (
-        <Card />
+        <VerticalCard />
       ))}
       <button>Load more</button>
     </div>
