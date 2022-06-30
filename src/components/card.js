@@ -1,6 +1,9 @@
 import Link from 'next/link';
-import VideoThumbnail from 'react-video-thumbnail';
+
 const Card = () => {
+
+
+
     return (
         <>
             <div class="card text-dark col-8 mb-3">
@@ -8,14 +11,7 @@ const Card = () => {
                     <div className="row">
                         <div className="col-6">
                             <Link href="/videoPlay">
-                                {/* <img src='https://www.w3schools.com/images/w3schools_green.jpg' /> */}
-                                <VideoThumbnail
-                                    videoUrl="https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4"
-                                // thumbnailHandler={(thumbnail) => console.log(thumbnail)}
-                                // thumbnailHandler={(thumbnail) => console.log(thumbnail)}
-                                // width={120}
-                                // height={80}
-                                />
+                                <img src='https://www.w3schools.com/images/w3schools_green.jpg' />
                             </Link>
                         </div>
                         <div className="col-6">

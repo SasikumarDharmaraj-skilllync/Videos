@@ -19,3 +19,8 @@ a {
 .card {
   border: none !important;
 }
+
+.snapshot-generator {
+  height: 200px !important;
+  width: 300px !important;
+}
