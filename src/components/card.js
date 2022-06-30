@@ -8,21 +8,13 @@ const Card = () => {
                     <div className="row">
                         <div className="col-6">
                             <Link href="/videoPlay">
-                                {/* <video
-                                    className="mediaInput_media"
-                                    height="200px"
-                                    width=""
-                                    controls
-                                    src="https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4"
-                                    controlsList="nodownload"
-                                // onContextMenu="return false;"
-                                /> */}
                                 {/* <img src='https://www.w3schools.com/images/w3schools_green.jpg' /> */}
                                 <VideoThumbnail
                                     videoUrl="https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4"
-                                    thumbnailHandler={(thumbnail) => console.log(thumbnail)}
-                                    width={120}
-                                    height={80}
+                                // thumbnailHandler={(thumbnail) => console.log(thumbnail)}
+                                // thumbnailHandler={(thumbnail) => console.log(thumbnail)}
+                                // width={120}
+                                // height={80}
                                 />
                             </Link>
                         </div>
