@@ -16,24 +16,24 @@ const videoID = () => {
             </Head>
             <Header />
             <div className='dark_bg'>
-        <div className='container pt-5'> 
-                <div className='row pt-5 pb-3'>
-                    <div className='col-md-8 col-xs-12'>
-                        <PlayVideo />
-                    </div>
-                    <div className='col-md-4 col-xs-12'>
-                        <LeadForm />
-                    </div>
-                </div> 
-                <h4 className='txt-white mb-4'>Similar Videos</h4> 
-                <div className='row'>
-                    {n.map(() => (
-                        <div className='col-sm-4 col-xs-12'>
-                            <HorizontalCard />
+                <div className='container pt-5'>
+                    <div className='row pt-5 pb-3'>
+                        <div className='col-md-8 col-xs-12'>
+                            <PlayVideo />
                         </div>
-                    ))}
+                        <div className='col-md-4 col-xs-12'>
+                            <LeadForm />
+                        </div>
+                    </div>
+                    <h4 className='txt-white mb-4'>Similar Videos</h4>
+                    <div className='row'>
+                        {n.map(() => (
+                            <div className='col-sm-4 col-xs-12'>
+                                <HorizontalCard />
+                            </div>
+                        ))}
+                    </div>
                 </div>
-            </div>
             </div>
         </>
     )
