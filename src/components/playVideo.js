@@ -1,6 +1,4 @@
 const PlayVideo = (props) => {
-    const Data = props.data
-    console.log(props.data)
     return (
         <>
             <div className="card text-dark mb-3">
@@ -17,7 +15,7 @@ const PlayVideo = (props) => {
                     />
                     <h6 className="mt-2">Full Stack Development</h6>
                     <p>It was a computer science oriented Programme.</p>
-                    <p>30-06-2022</p>
+                    <small>30-06-2022</small>
                 </div>
             </div>
         </>

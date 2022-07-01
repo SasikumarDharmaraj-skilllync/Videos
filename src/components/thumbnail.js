@@ -2,9 +2,6 @@ import VideoThumbnail from 'react-video-thumbnail'
 import Link from 'next/link';
 
 const Thumbnail = () => {
-    const sasi = () => {
-        console.log("sasi")
-    }
     return (
         <>
             <Link href="/videoPlay">

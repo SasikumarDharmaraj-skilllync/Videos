@@ -7,7 +7,6 @@ const HorizontalCard = () => {
             <div className="card text-dark mb-3">
                 <div className="card-body">
                     <Link href="/videoPlay/2">
-                        {/* <img src='https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/autumn/autumn-leaves-against-a-blue-sky-photo-andrew-small.jpg' width="300px" height="150px" alt='' style={{ border: "2px solid black" }} /> */}
                         <video src='https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4' width="300px" height="150px" alt='' style={{ border: "2px solid black" }}></video>
                     </Link>
                     <div className="card border-success mb-3">

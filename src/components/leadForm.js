@@ -20,7 +20,8 @@ const LeadForm = () => {
                     <input type="text" className="form-control" id="exampleCity1" />
                 </div>
                 <div className="btn btn-primary">Submit</div>
-            </form>        </>
+            </form>
+        </>
     )
 }
 

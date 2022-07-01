@@ -10,7 +10,6 @@ const VerticalCard = () => {
                     <div className="row">
                         <div className="col-5">
                             <Link href="/videoPlay/1">
-                                {/* <img src='https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/autumn/autumn-leaves-against-a-blue-sky-photo-andrew-small.jpg' width="400px" height="250px" alt='' style={{ border: "2px solid black" }} /> */}
                                 <video src='https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4' width="400px" height="250px" alt='' style={{ border: "2px solid black" }}></video>
                             </Link>
                         </div>
@@ -26,7 +25,6 @@ const VerticalCard = () => {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }
