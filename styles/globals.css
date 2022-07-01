@@ -18,9 +18,71 @@ a {
 
 .card {
   border: none !important;
+  padding:1.5rem !important;
 }
 
 .snapshot-generator {
   height: 200px !important;
   width: 300px !important;
+}
+
+/*New css*/
+video{
+  cursor:pointer;
+}
+.video-list ,.similar_card{
+  position: relative;
+}
+.video-list img ,.similar_card img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width:20%;
+}
+.video-list video{
+  width: 100%;
+  height:100%;
+  border-radius: 5px;
+}
+.dark_bg{
+  background: #24252d;
+}
+.navbar{
+  position: fixed !important;
+  width: 100%;
+  z-index: 10;
+}
+
+.dark_card{
+  background: #2a2d3a !important;
+  box-shadow: 0px 0px 20px 2px #121522;
+  border-radius: 5px;
+}
+.card.dark_card:hover{
+  border:1px solid #fff !important;
+}
+.txt-white{
+  color:#fff;
+}
+
+.similar_card video{
+  width:100%;
+  height:auto;
+}
+
+.navlogo
+{
+  width:150px;
+  height:30px;
+}
+
+.nav_avatar
+{
+  width:30px;
+}
+.header-box-shadow{
+  box-shadow: 2px 4px 7px 0px #121522;
 }
