@@ -19,10 +19,6 @@ const LeadForm = () => {
                     <label for="exampleCity1" className="form-label">City</label>
                     <input type="text" className="form-control" id="exampleCity1" />
                 </div>
-                {/* <div className="mb-3 form-check">
-                    <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                    <label className="form-check-label" for="exampleCheck1">Check me out</label>
-                </div> */}
                 <div className="btn btn-primary">Submit</div>
             </form>        </>
     )

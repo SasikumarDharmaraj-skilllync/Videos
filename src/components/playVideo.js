@@ -15,6 +15,9 @@ const PlayVideo = (props) => {
                         autoplay="autoplay"
                     // onContextMenu="return false;"
                     />
+                    <h6 className="mt-2">Full Stack Development</h6>
+                    <p>It was a computer science oriented Programme.</p>
+                    <p>30-06-2022</p>
                 </div>
             </div>
         </>
