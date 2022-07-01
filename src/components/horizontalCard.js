@@ -4,22 +4,16 @@ const HorizontalCard = () => {
 
     return (
         <>
-            <div className="card text-dark mb-3">
-                <div className="card-body">
+            <div className="card mb-3 dark_card similar_card">
+                <div className="card-body txt-white">
                     <Link href="/videoPlay/2">
-                        <video
-                            src='http://media.w3.org/2010/05/sintel/trailer.mp4'
-                            // src='https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4' 
-                            width="300px" height="150px" alt='' style={{ border: "2px solid black" }}></video>
+                        <video src='https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4' alt='similar_video' ></video>
                     </Link>
-                    <div className="card border-success mb-3">
-                        <div className="card-header bg-transparent border-success">Title: Sintel Trailer</div>
-                        <div className="card-body text-success">
-                            <h5 className="card-title">Description: Which is an holly wood movie</h5>
-                        </div>
-                        <div className="card-footer bg-transparent border-success">Date: 30-06-2022</div>
-                    </div>
+                    <h5 className="card-title  mt-2 border-success">Title: Full Stack Development</h5>
+                    <p className="card-title">Description: It was a computer science oriented Program.</p>
+
                 </div>
+                <div className="card-footer border-success txt-white">Date: 30-06-2022</div>
             </div>
 
         </>

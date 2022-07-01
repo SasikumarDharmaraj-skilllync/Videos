@@ -6,7 +6,8 @@ const Thumbnail = () => {
         <>
             <Link href="/videoPlay">
                 <VideoThumbnail
-                    videoUrl="https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4"
+                    // videoUrl="https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4"
+                    videoUrl='http://media.w3.org/2010/05/sintel/trailer.mp4'
                     thumbnailHandler={(thumbnail) => console.log(thumbnail)}
                     width={120}
                     height={80}
