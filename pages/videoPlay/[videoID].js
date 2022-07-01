@@ -5,7 +5,7 @@ import Head from 'next/head'
 import Header from '../../src/components/header';
 
 
-const vI = () => {
+const videoID = () => {
     const n = [1, 2, 3]
     return (
         <>
@@ -15,7 +15,6 @@ const vI = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className='container'>
-
                 <Header />
                 <div className='row'>
                     <div className='col-8'>
@@ -33,9 +32,8 @@ const vI = () => {
                     ))}
                 </div>
             </div>
-
         </>
     )
 }
 
-export default vI;
+export default videoID;
