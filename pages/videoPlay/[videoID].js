@@ -27,8 +27,8 @@ const videoID = () => {
                     </div>
                     <h4 className='txt-white mb-4'>Similar Videos</h4>
                     <div className='row'>
-                        {n.map(() => (
-                            <div className='col-sm-4 col-xs-12'>
+                        {n.map((i) => (
+                            <div key={i} className='col-sm-4 col-xs-12'>
                                 <HorizontalCard />
                             </div>
                         ))}
